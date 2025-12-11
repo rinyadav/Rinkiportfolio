@@ -50,7 +50,7 @@
 
 ## Navigation Design (Matching Reference)
 - Logo: "Portfolio" in cyan on left
-- Nav items: Home, About, Skills, Projects, Contact (centered)
+- Nav items: Home, About, Skills, Projects, Experience, Education, Achievements, Contact
 - "Let's Talk" button in cyan on right
 - Theme toggle icon
 - Mobile menu for responsive design

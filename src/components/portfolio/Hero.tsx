@@ -17,9 +17,7 @@ export default function Hero() {
             👋 Welcome to my portfolio
           </Badge>
 
-          <h1 className="text-6xl xl:text-8xl font-bold mb-6 max-sm:text-4xl">
-            Hi, I'm <span className="text-primary">Your Name</span>
-          </h1>
+          <h1 className="xl:text-8xl font-bold mb-6 max-sm:text-4xl bg-[#000000ff] bg-none text-[#fffffff5] text-[48px]">Hi, I'm Rinki Yadav</h1>
 
           <p className="text-2xl xl:text-3xl mb-6 text-muted-foreground max-sm:text-xl">
             Full Stack Developer & UI/UX Enthusiast

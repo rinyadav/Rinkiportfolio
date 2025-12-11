@@ -40,6 +40,9 @@ export default function Navigation() {
     { label: "About", id: "about" },
     { label: "Skills", id: "skills" },
     { label: "Projects", id: "projects" },
+    { label: "Experience", id: "experience" },
+    { label: "Education", id: "education" },
+    { label: "Achievements", id: "achievements" },
     { label: "Contact", id: "contact" }
   ];
 
@@ -53,10 +56,8 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold text-primary"
-          >
-            Portfolio
-          </button>
+            className="font-bold text-primary text-[36px]"
+          >RY</button>
 
           <div className="hidden xl:flex items-center gap-8">
             {navItems.map((item) => (
