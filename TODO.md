@@ -1,9 +1,9 @@
 # Task: Create Personal Portfolio Website
 
 ## Plan
-- [x] 1. Setup design system with Cool & Clean color scheme
+- [x] 1. Setup design system with Dark + Cyan color scheme (matching reference design)
 - [x] 2. Create main page structure and routing
-- [x] 3. Implement Hero section with photo, tagline, CTA buttons
+- [x] 3. Implement Hero section matching reference design
 - [x] 4. Implement About Me section
 - [x] 5. Implement Skills section with progress bars and badges
 - [x] 6. Implement Projects showcase section with filtering
@@ -15,37 +15,55 @@
 - [x] 12. Implement Contact section with form
 - [x] 13. Implement Resume section with preview and download
 - [x] 14. Implement Blog section
-- [x] 15. Implement Navigation with smooth scrolling
+- [x] 15. Implement Navigation with "Let's Talk" button
 - [x] 16. Implement Footer
 - [x] 17. Implement Theme Toggle (Dark/Light mode) - Default: Dark
 - [x] 18. Add animations and interactions
 - [x] 19. Ensure responsive design
-- [x] 20. Add 3D button effects with blue glow
-- [x] 21. Update color scheme to Cool & Clean theme
+- [x] 20. Add 3D button effects with cyan glow
+- [x] 21. Update color scheme to Dark + Cyan theme
 - [x] 22. Add project filtering by category
 - [x] 23. Run lint and fix issues
 
 ## Notes
 - No backend/database needed - static portfolio website
-- **Color Scheme: Cool & Clean**
-  - Background: #0D1117 (Dark Blue-Gray / hsl(217 19% 9%))
-  - Text: #E5E7EB (Light Gray / hsl(220 9% 91%))
-  - Accent: #3B82F6 (Bright Blue / hsl(217 91% 60%))
+- **Color Scheme: Dark + Cyan (Matching Reference Design)**
+  - Background: #0A0E14 (Very Dark Blue-Gray / hsl(210 20% 6%))
+  - Text: #FFFFFF (White / hsl(0 0% 100%))
+  - Muted Text: #9CA3AF (Gray / hsl(220 9% 61%))
+  - Accent: #14F1D9 (Bright Cyan/Turquoise / hsl(176 85% 51%))
 - All content is hardcoded/static
 - All sections implemented with smooth scrolling
 - Theme toggle working with localStorage persistence (default: dark mode)
-- 3D button effects with blue glow shadows
+- 3D button effects with cyan glow shadows
 - Project filtering implemented with categories: All, E-Commerce, Web App, Dashboard, Design, API Integration
 - Lint check passed with no errors
+
+## Hero Section Design (Matching Reference)
+- Welcome badge with hand wave emoji
+- Large heading: "Hi, I'm Your Name" (Your Name in cyan)
+- Subtitle: "Full Stack Developer & UI/UX Enthusiast"
+- Description paragraph
+- Two CTA buttons: "View My Work" (filled cyan) and "Get In Touch" (outlined)
+- Social icons: GitHub, LinkedIn, Email
+- Scroll Down indicator with arrow
+
+## Navigation Design (Matching Reference)
+- Logo: "Portfolio" in cyan on left
+- Nav items: Home, About, Skills, Projects, Contact (centered)
+- "Let's Talk" button in cyan on right
+- Theme toggle icon
+- Mobile menu for responsive design
 
 ## Completed Successfully ✓
 All requirements have been implemented and tested.
 
 ## Latest Updates
-- ✅ Updated to Cool & Clean color scheme (#0D1117 background, #E5E7EB text, #3B82F6 accent)
-- ✅ Enhanced 3D button effects with blue glow shadows
+- ✅ Updated to Dark + Cyan color scheme matching reference design (#0A0E14 background, #FFFFFF text, #14F1D9 accent)
+- ✅ Redesigned Hero section to match reference layout exactly
+- ✅ Updated Navigation with "Let's Talk" button and simplified menu
+- ✅ Enhanced 3D button effects with cyan glow shadows
+- ✅ Added outline button style for "Get In Touch" button
 - ✅ Set dark mode as default theme
-- ✅ Added project filtering functionality with 6 categories
-- ✅ Updated Hero section with profile image
-- ✅ Professional blue color system for clean, modern aesthetic
-- ✅ Optimized shadow and glow effects for cool blue theme
+- ✅ Professional cyan color system for modern, clean aesthetic
+- ✅ Optimized shadow and glow effects for cyan theme

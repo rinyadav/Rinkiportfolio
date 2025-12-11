@@ -40,13 +40,6 @@ export default function Navigation() {
     { label: "About", id: "about" },
     { label: "Skills", id: "skills" },
     { label: "Projects", id: "projects" },
-    { label: "Services", id: "services" },
-    { label: "Experience", id: "experience" },
-    { label: "Education", id: "education" },
-    { label: "Achievements", id: "achievements" },
-    { label: "Testimonials", id: "testimonials" },
-    { label: "Blog", id: "blog" },
-    { label: "Resume", id: "resume" },
     { label: "Contact", id: "contact" }
   ];
 
@@ -57,25 +50,34 @@ export default function Navigation() {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold gradient-text"
-          >RY</button>
+            className="text-2xl font-bold text-primary"
+          >
+            Portfolio
+          </button>
 
-          <div className="hidden xl:flex items-center gap-6">
+          <div className="hidden xl:flex items-center gap-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-sm font-medium hover:text-primary transition-colors"
+                className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 {item.label}
               </button>
             ))}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
+            <Button
+              className="hidden xl:flex btn-3d px-6 py-2 rounded-lg font-semibold"
+              onClick={() => scrollToSection("contact")}
+            >
+              Let's Talk
+            </Button>
+
             <Button
               variant="ghost"
               size="icon"
