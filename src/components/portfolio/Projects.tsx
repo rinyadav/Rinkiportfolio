@@ -108,7 +108,7 @@ export default function Projects() {
                   key={category}
                   variant={activeCategory === category ? "default" : "outline"}
                   onClick={() => setActiveCategory(category)}
-                  className="transition-all duration-300"
+                  className={`transition-all duration-300 ${activeCategory === category ? "btn-3d" : ""}`}
                 >
                   {category}
                 </Button>

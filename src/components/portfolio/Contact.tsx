@@ -131,7 +131,7 @@ export default function Contact() {
                       required
                     />
                   </div>
-                  <Button type="submit" className="w-full gap-2">
+                  <Button type="submit" className="w-full gap-2 btn-3d">
                     <Send className="w-4 h-4" />
                     Send Message
                   </Button>
@@ -177,7 +177,7 @@ export default function Contact() {
                   <p className="text-muted-foreground mb-4">
                     I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                   </p>
-                  <Button variant="secondary" size="lg" asChild>
+                  <Button variant="secondary" size="lg" className="btn-3d" asChild>
                     <a href="mailto:john.doe@example.com">
                       <Mail className="w-4 h-4 mr-2" />
                       Email Me Directly

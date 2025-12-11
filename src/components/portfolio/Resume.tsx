@@ -36,11 +36,11 @@ export default function Resume() {
                 Complete professional resume with experience, skills, and achievements
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Button size="lg" className="gap-2" onClick={handleDownload}>
+                <Button size="lg" className="gap-2 btn-3d" onClick={handleDownload}>
                   <Download className="w-5 h-5" />
                   Download PDF
                 </Button>
-                <Button size="lg" variant="outline" className="gap-2" asChild>
+                <Button size="lg" variant="outline" className="gap-2 btn-3d" asChild>
                   <a href="#resume-preview">
                     <Eye className="w-5 h-5" />
                     View Online

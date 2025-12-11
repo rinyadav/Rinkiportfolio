@@ -64,7 +64,7 @@ export default function About() {
                 When I'm not coding, you'll find me exploring new design patterns, contributing to 
                 open-source projects, or sharing my knowledge through blog posts and mentoring.
               </p>
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className="gap-2 btn-3d">
                 <Download className="w-5 h-5" />
                 Download Resume
               </Button>

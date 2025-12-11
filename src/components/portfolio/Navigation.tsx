@@ -5,15 +5,14 @@ import { Moon, Sun, Menu } from "lucide-react";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-    if (savedTheme) {
-      setTheme(savedTheme);
-      document.documentElement.classList.toggle("dark", savedTheme === "dark");
-    }
+    const initialTheme = savedTheme || "dark";
+    setTheme(initialTheme);
+    document.documentElement.classList.toggle("dark", initialTheme === "dark");
 
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -62,9 +61,7 @@ export default function Navigation() {
           <button
             onClick={() => scrollToSection("home")}
             className="text-2xl font-bold gradient-text"
-          >
-            JD
-          </button>
+          >RY</button>
 
           <div className="hidden xl:flex items-center gap-6">
             {navItems.map((item) => (
