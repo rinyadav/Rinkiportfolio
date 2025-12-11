@@ -1,7 +1,7 @@
 # Task: Create Personal Portfolio Website
 
 ## Plan
-- [x] 1. Setup design system (index.css with purple/gray color scheme)
+- [x] 1. Setup design system with Dark + Neon color scheme
 - [x] 2. Create main page structure and routing
 - [x] 3. Implement Hero section with photo, tagline, CTA buttons
 - [x] 4. Implement About Me section
@@ -20,21 +20,21 @@
 - [x] 17. Implement Theme Toggle (Dark/Light mode) - Default: Dark
 - [x] 18. Add animations and interactions
 - [x] 19. Ensure responsive design
-- [x] 20. Add 3D button effects
-- [x] 21. Update color scheme to dark theme with vibrant purple accent
+- [x] 20. Add 3D button effects with neon glow
+- [x] 21. Update color scheme to Dark + Neon theme
 - [x] 22. Add project filtering by category
 - [x] 23. Run lint and fix issues
 
 ## Notes
 - No backend/database needed - static portfolio website
-- Primary color: Vibrant Purple (#8b5cf6 / hsl(262 83% 58%))
-- Secondary color: Neutral Gray (hsl(220 13% 40%))
-- Dark background: Near black (hsl(220 18% 8%))
-- Light text: Bright white/light gray (hsl(220 13% 95%))
+- **Color Scheme: Dark + Neon**
+  - Background: #000000 (Pure Black / hsl(0 0% 0%))
+  - Text: #FFFFFF (Pure White / hsl(0 0% 100%))
+  - Accent: #6049EA (Neon Purple / hsl(252 77% 60%))
 - All content is hardcoded/static
 - All sections implemented with smooth scrolling
 - Theme toggle working with localStorage persistence (default: dark mode)
-- 3D button effects added with shadow-3d utility class
+- 3D button effects with enhanced neon glow shadows
 - Project filtering implemented with categories: All, E-Commerce, Web App, Dashboard, Design, API Integration
 - Lint check passed with no errors
 
@@ -42,9 +42,10 @@
 All requirements have been implemented and tested.
 
 ## Latest Updates
-- ✅ Changed color scheme to dark theme with vibrant purple accent
-- ✅ Added 3D effects to all buttons using btn-3d utility class
+- ✅ Updated to Dark + Neon color scheme (#000000 background, #FFFFFF text, #6049EA accent)
+- ✅ Enhanced 3D button effects with neon glow shadows
 - ✅ Set dark mode as default theme
 - ✅ Added project filtering functionality with 6 categories
 - ✅ Updated Hero section with profile image
-- ✅ Enhanced visual hierarchy with new color system
+- ✅ Enhanced visual hierarchy with neon color system
+- ✅ Increased shadow intensity for neon glow effect
