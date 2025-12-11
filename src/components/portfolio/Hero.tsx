@@ -10,14 +10,23 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-[var(--gradient-hero)] opacity-50" />
+      <div className="absolute inset-0 bg-background" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{
+          backgroundImage: 'url(https://miaoda-site-img.s3cdn.medo.dev/images/b23e7101-8fff-4698-aeaf-ef09924b2af5.jpg)'
+        }}
+      />
+      <div className="absolute inset-0 bg-[var(--gradient-hero)] opacity-30" />
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
           <Badge variant="secondary" className="mb-8 px-4 py-2 text-sm bg-card border border-border">
             👋 Welcome to my portfolio
           </Badge>
 
-          <h1 className="xl:text-8xl font-bold mb-6 max-sm:text-4xl bg-[#000000ff] bg-none text-[#fffffff5] text-[48px]">Hi, I'm Rinki Yadav</h1>
+          <h1 className="text-6xl xl:text-8xl font-bold mb-6 max-sm:text-4xl">
+            Hi, I'm <span className="text-primary">Your Name</span>
+          </h1>
 
           <p className="text-2xl xl:text-3xl mb-6 text-muted-foreground max-sm:text-xl">
             Full Stack Developer & UI/UX Enthusiast
