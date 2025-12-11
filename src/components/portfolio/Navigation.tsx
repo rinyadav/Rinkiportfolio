@@ -39,6 +39,7 @@ export default function Navigation() {
     { label: "Home", id: "home" },
     { label: "About", id: "about" },
     { label: "Skills", id: "skills" },
+    { label: "Services", id: "services" },
     { label: "Projects", id: "projects" },
     { label: "Experience", id: "experience" },
     { label: "Education", id: "education" },
