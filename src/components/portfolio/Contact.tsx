@@ -177,7 +177,7 @@ export default function Contact() {
                   <p className="text-muted-foreground mb-4">
                     I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                   </p>
-                  <Button variant="secondary" size="lg" className="btn-3d" asChild>
+                  <Button size="lg" className="btn-3d" asChild>
                     <a href="mailto:rinki191006@gmail.com">
                       <Mail className="w-4 h-4 mr-2" />
                       Email Me Directly
