@@ -31,7 +31,7 @@ export default function Resume() {
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-primary flex items-center justify-center">
                 <FileText className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-2">John Doe - Frontend Developer</h3>
+              <h3 className="text-2xl font-bold mb-2">Rinki Yadav - Frontend Developer</h3>
               <p className="text-muted-foreground mb-6">
                 Complete professional resume with experience, skills, and achievements
               </p>

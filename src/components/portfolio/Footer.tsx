@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", url: "https://github.com/johndoe" },
-    { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/johndoe" },
-    { icon: Twitter, label: "Twitter", url: "https://twitter.com/johndoe" },
-    { icon: Mail, label: "Email", url: "mailto:john.doe@example.com" }
+    { icon: Github, label: "GitHub", url: "https://github.com/rinkiyadav" },
+    { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/rinkiyadav" },
+    { icon: Twitter, label: "Twitter", url: "https://twitter.com/rinkiyadav" },
+    { icon: Mail, label: "Email", url: "mailto:rinki.yadav@example.com" }
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">John Doe</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Rinki Yadav</h3>
             <p className="text-muted-foreground mb-4">
               Frontend Developer passionate about creating beautiful and functional web experiences.
             </p>
@@ -72,8 +72,8 @@ export default function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>San Francisco, CA</li>
               <li>
-                <a href="mailto:john.doe@example.com" className="hover:text-primary transition-colors">
-                  john.doe@example.com
+                <a href="mailto:rinki.yadav@example.com" className="hover:text-primary transition-colors">
+                  rinki.yadav@example.com
                 </a>
               </li>
             </ul>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t text-center text-muted-foreground">
           <p className="flex items-center justify-center gap-1 flex-wrap">
-            2025 John Doe Portfolio
+            2025 Rinki Yadav Portfolio
             <span className="flex items-center gap-1">
               • Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> using React & TypeScript
             </span>
