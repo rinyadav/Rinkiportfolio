@@ -18,7 +18,7 @@ export default function Footer() {
     { icon: Github, label: "GitHub", url: "https://github.com/rinkiyadav" },
     { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/rinkiyadav" },
     { icon: Twitter, label: "Twitter", url: "https://twitter.com/rinkiyadav" },
-    { icon: Mail, label: "Email", url: "mailto:rinki.yadav@example.com" }
+    { icon: Mail, label: "Email", url: "mailto:rinki191006@gmail.com" }
   ];
 
   return (
@@ -70,10 +70,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>San Francisco, CA</li>
+              <li>Mumbai, India</li>
               <li>
-                <a href="mailto:rinki.yadav@example.com" className="hover:text-primary transition-colors">
-                  rinki.yadav@example.com
+                <a href="mailto:rinki191006@gmail.com" className="hover:text-primary transition-colors">
+                  rinki191006@gmail.com
                 </a>
               </li>
             </ul>

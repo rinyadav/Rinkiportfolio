@@ -76,7 +76,12 @@ All requirements have been implemented and tested.
 - ✅ Updated to Dark + Cyan color scheme matching reference design (#0A0E14 background, #FFFFFF text, #14F1D9 accent)
 - ✅ Redesigned Hero section to match reference layout exactly
 - ✅ Added futuristic robotic hand with tech circuit background image to Hero section
-- ✅ Updated name to "Rinki Yadav" with cyan highlight
+- ✅ Updated name to "Rinki Yadav" throughout the entire portfolio
+- ✅ Updated contact information:
+  - Email: rinki191006@gmail.com
+  - Location: Mumbai, India
+  - LinkedIn: linkedin.com/in/rinkiyadav
+  - GitHub: github.com/rinkiyadav
 - ✅ Removed theme toggle - locked to dark mode permanently
 - ✅ Updated Navigation with "Let's Talk" button and comprehensive menu
 - ✅ Added Services section to navigation

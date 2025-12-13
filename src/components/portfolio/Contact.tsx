@@ -19,7 +19,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:john.doe@example.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+    const mailtoLink = `mailto:rinki191006@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
     window.location.href = mailtoLink;
 
     toast({
@@ -41,26 +41,26 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      link: "mailto:john.doe@example.com"
+      value: "rinki191006@gmail.com",
+      link: "mailto:rinki191006@gmail.com"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Mumbai, India",
       link: null
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/johndoe",
-      link: "https://linkedin.com/in/johndoe"
+      value: "linkedin.com/in/rinkiyadav",
+      link: "https://linkedin.com/in/rinkiyadav"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/johndoe",
-      link: "https://github.com/johndoe"
+      value: "github.com/rinkiyadav",
+      link: "https://github.com/rinkiyadav"
     }
   ];
 
@@ -178,7 +178,7 @@ export default function Contact() {
                     I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                   </p>
                   <Button variant="secondary" size="lg" className="btn-3d" asChild>
-                    <a href="mailto:john.doe@example.com">
+                    <a href="mailto:rinki191006@gmail.com">
                       <Mail className="w-4 h-4 mr-2" />
                       Email Me Directly
                     </a>
