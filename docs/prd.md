@@ -1,5 +1,7 @@
 # Personal Portfolio Website Requirements Document
-\n## 1. Website Overview\n
+
+## 1. Website Overview
+
 ### 1.1 Website Name
 Personal Portfolio Website
 
@@ -7,11 +9,11 @@ Personal Portfolio Website
 A modern, interactive personal portfolio website showcasing professional skills, projects, experience, and achievements. The website serves as a comprehensive digital resume and professional presence for a frontend developer, inspired by contemporary portfolio design patterns.
 
 ### 1.3 Target Audience
-Recruiters, potential employers, clients, collaborators, and professional network contacts.
-
+Recruiters, potential employers, clients, collaborators, and professional network contacts.\n
 ## 2. Core Sections & Features
-\n### 2.1 Hero / Introduction Section
-- Personalized greeting: 'Hello, I'm [Your Name]'
+
+### 2.1 Hero / Introduction Section
+- Personalized greeting:'Hello, I'm [Your Name]'
 - Role/title displayed prominently: 'Frontend Developer | Designer | Problem Solver'
 - Display user photo or avatar
 - Brief personal introduction tagline
@@ -24,33 +26,27 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Key strengths highlight
 - Notable achievements summary
 - Skills and interests overview
-
-### 2.3 Skills Section
+\n### 2.3 Skills Section
 **Technical Skills:**
-- HTML, CSS, JavaScript
-- React, Node.js, Flask
-- Python, SQL
-- Tools: Git, VS Code, Figma
-
-**Soft Skills:**
-- Communication
-- Leadership
-- Teamwork\n- Problem-solving
-\nDisplay format: Progress bars with gradient fills, skill logos, and skill badges
+- HTML, CSS, JavaScript\n- React, Node.js, Flask
+- Python, SQL\n- Tools: Git, VS Code, Figma
+\n**Soft Skills:**
+- Communication\n- Leadership
+- Teamwork
+- Problem-solving\n\nDisplay format: Progress bars with gradient fills, skill logos, and skill badges
 
 ### 2.4 Featured Projects Gallery
 **Project Filtering System:**
-- Category filters: All, E-Commerce, Photography, Typography, Web Development, UI/UX Design, etc.\n- Interactive filter buttons to sort projects by category
-
-**Project Display:**
-- Showcase 4-6 best projects in card/grid layout
+- Category filters: All, E-Commerce, Photography, Typography, Web Development, UI/UX Design, etc.
+- Interactive filter buttons to sort projects by category
+\n**Project Display:**
+- Showcase4-6 best projects in card/grid layout
 - Each project card includes:
   - Project title
   - Category tag
   - Screenshot or thumbnail image
   - Brief description
-  - Technologies used
-  - Live demo link
+  - Technologies used\n  - Live demo link
   - GitHub repository link
 - Hover animation effects for interactivity
 - Smooth transitions when filtering projects
@@ -61,10 +57,9 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Additional projects with appropriate category tags
 
 ### 2.5 Services / What I Do Section
-- Web Development
-- UI/UX Design
-- SEO Optimization
-- API Integration\n- Portfolio/Website creation
+- Web Development\n- UI/UX Design\n- SEO Optimization
+- API Integration
+- Portfolio/Website creation
 - Software development
 - Each service displayed with icon and brief description
 
@@ -94,8 +89,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Clear visual distinction between current and past roles
 - Expandable cards for detailed responsibility descriptions
 \n### 2.7 Education Section
-**Display Format:**
-- Card-based layout with academic institution branding
+**Display Format:**\n- Card-based layout with academic institution branding
 - Each education card includes:
   - Institution logo or icon
   - Degree type and field of study
@@ -116,56 +110,18 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Clear hierarchy: Degree → Institution → Details
 - Optional: Include certifications from educational platforms (Coursera, edX, etc.)
 
-### 2.8 Achievements & Certifications Section
-**Display Format:**
-- Mixed grid layout combining badges, cards, and award ribbons
-- Categorized subsections:\n  - Professional Certifications
-  - Hackathons & Competitions
-  - Awards & Recognition
-  - Online Course Completions
-\n**Each Achievement Entry Includes:**
-- Achievement title or certification name
-- Issuing organization (Google, Coursera, hackathon organizer, etc.)
-- Date earned or awarded
-- Credential ID or verification link (if applicable)
-- Badge or certificate thumbnail image
-- Brief description of achievement significance
-
-**Visual Elements:**
-- Badge-style icons for certifications
-- Trophy or medal icons for awards
-- Ribbon accents for special recognitions
-- Verification checkmarks for authenticated credentials
-- Hover effect revealing more details
-- Filter/sort options: By date, by category, by issuer
-
-**Interactive Features:**
-- Click to view full certificate or credential
-- External links to verification pages
-- Lightbox modal for certificate images
-- Social share buttons for achievements
-
-### 2.9 Testimonials Section
-Display testimonials from:\n- Teachers\n- Clients
-- Mentors
-- Colleagues
-\n### 2.10 Resume Section
+### 2.8 Resume Section
 - Resume preview display
 - Download CV button prominently placed
 - One-click download functionality
-\n### 2.11 Contact Section
+\n### 2.9 Contact Section
 - Contact form with fields: Name, Email, Message
 - Gmail address\n- LinkedIn profile link
 - GitHub profile link
 - Location (city only)
 - Social media links
-\n### 2.12 Blog Section
-Content topics:
-- Tech tutorials\n- Learning journey documentation
-- Project explanations and case studies
-- Industry insights
+\n## 3. Navigation & User Experience
 
-## 3. Navigation & User Experience\n
 ### 3.1 Navigation Bar
 - Fixed/sticky navigation bar at top\n- Anchor links to all major sections:\n  - Home
   - About
@@ -174,8 +130,7 @@ Content topics:
   - Services
   - Experience
   - Education
-  - Contact
-- Smooth scroll behavior when clicking nav links
+  - Contact\n- Smooth scroll behavior when clicking nav links
 - Mobile-responsive hamburger menu
 
 ### 3.2 Interactive Features
@@ -212,7 +167,6 @@ Content topics:
 - Grid layout for project gallery with filtering capability
 - Timeline visualization for experience section with interactive elements
 - Card-based layout for education with institution branding
-- Badge and ribbon design for achievements and certifications
 - Clear visual hierarchy for easy content scanning
 
 ### 5.2 Color Scheme
@@ -230,22 +184,20 @@ Content topics:
 - Icon style: Line icons with consistent2px stroke width
 - Progress bars with gradient fills for skill visualization
 - Timeline dots with glow effect on hover
-- Achievement badges with metallic gradient effects
 - Hover effects: slight scale (1.05) and shadow increase on cards
 
 ### 5.4 Typography
 - Headings: Bold, modern sans-serif font (e.g., Inter, Poppins)
-- Body text: Clean, readable sans-serif with 1.6 line height
+- Body text: Clean, readable sans-serif with1.6line height
 - Code snippets: Monospace font (e.g., Fira Code) for technical content
 - Timeline dates: Smaller, uppercase font with letter spacing
-- Achievement titles: Medium weight with slight letter spacing
-
-### 5.5 Layout Structure\n- Clearly separated sections with consistent padding
+\n### 5.5 Layout Structure
+- Clearly separated sections with consistent padding
 - Maximum content width for readability (1200px-1400px)
 - Generous whitespace between sections
 - Centered content alignment for hero and major sections
 - Timeline: Vertical center line with alternating content cards
 - Education grid: 2 columns on desktop, responsive stacking on mobile
-- Achievements: Flexible grid adapting to content (3-4 columns on desktop)
-\n## 6. Reference Files
+
+## 6. Reference Files
 - Design inspiration image: Screenshot 2025-12-11 225606.png (used for hero section layout, color scheme, and overall modern aesthetic)

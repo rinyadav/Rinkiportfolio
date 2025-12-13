@@ -33,7 +33,6 @@ export default function Navigation() {
     { label: "Projects", id: "projects" },
     { label: "Experience", id: "experience" },
     { label: "Education", id: "education" },
-    { label: "Achievements", id: "achievements" },
     { label: "Contact", id: "contact" }
   ];
 
