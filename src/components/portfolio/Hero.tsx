@@ -12,9 +12,9 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-background" />
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25"
         style={{
-          backgroundImage: 'url(https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20251212/file-8600ckrcpurk.jpg)'
+          backgroundImage: 'url(https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20251213/file-878232av7c3k.png)'
         }}
       />
       <div className="absolute inset-0 bg-[var(--gradient-hero)] opacity-20" />
