@@ -76,6 +76,8 @@ All requirements have been implemented and tested.
 - ✅ Updated to Dark + Cyan color scheme matching reference design (#0A0E14 background, #FFFFFF text, #14F1D9 accent)
 - ✅ Redesigned Hero section to match reference layout exactly
 - ✅ Added custom 3D cyan wave/particle background image to Hero section
+- ✅ Updated name to "Rinki Yadav" with cyan highlight
+- ✅ Removed theme toggle - locked to dark mode permanently
 - ✅ Updated Navigation with "Let's Talk" button and comprehensive menu
 - ✅ Added Services section to navigation
 - ✅ Added Experience & Timeline section to navigation
@@ -83,7 +85,6 @@ All requirements have been implemented and tested.
 - ✅ Added Achievements & Certifications section to navigation
 - ✅ Enhanced 3D button effects with cyan glow shadows
 - ✅ Added outline button style for "Get In Touch" button
-- ✅ Set dark mode as default theme
 - ✅ Professional cyan color system for modern, clean aesthetic
 - ✅ Optimized shadow and glow effects for cyan theme
 - ✅ All 12 portfolio sections accessible via navigation
