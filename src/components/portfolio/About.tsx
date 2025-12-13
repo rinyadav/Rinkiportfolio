@@ -42,8 +42,8 @@ export default function About() {
           <div className="grid xl:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
-                alt="Working on projects"
+                src="https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20251213/file-878pvdpr03cw.png"
+                alt="Rinki Yadav - Frontend Developer"
                 className="rounded-lg shadow-[var(--shadow-card)] w-full"
               />
             </div>
