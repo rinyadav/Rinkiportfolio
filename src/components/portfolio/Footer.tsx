@@ -11,7 +11,7 @@ export default function Footer() {
     { label: "About", id: "about" },
     { label: "Projects", id: "projects" },
     { label: "Services", id: "services" },
-    { label: "Blog", id: "blog" }
+    { label: "Contact", id: "contact" }
   ];
 
   const socialLinks = [

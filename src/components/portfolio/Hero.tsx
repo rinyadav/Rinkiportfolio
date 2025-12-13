@@ -68,7 +68,7 @@ export default function Hero() {
 
           <div className="flex gap-6 justify-center mt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/rinkiyadav"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -77,7 +77,7 @@ export default function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/rinkiyadav"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -86,7 +86,7 @@ export default function Hero() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:rinki191006@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

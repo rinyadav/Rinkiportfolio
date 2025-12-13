@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Download, Award, Users, Lightbulb, Target } from "lucide-react";
 
 export default function About() {
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Rinki_Yadav_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const highlights = [
     {
       icon: Award,
@@ -64,7 +73,7 @@ export default function About() {
                 When I'm not coding, you'll find me exploring new design patterns, contributing to 
                 open-source projects, or sharing my knowledge through blog posts and mentoring.
               </p>
-              <Button size="lg" className="gap-2 btn-3d">
+              <Button size="lg" className="gap-2 btn-3d" onClick={handleDownloadResume}>
                 <Download className="w-5 h-5" />
                 Download Resume
               </Button>

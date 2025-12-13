@@ -7,6 +7,13 @@ export default function Resume() {
   const { toast } = useToast();
 
   const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Rinki_Yadav_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
     toast({
       title: "Resume Download",
       description: "Your resume download will begin shortly."
