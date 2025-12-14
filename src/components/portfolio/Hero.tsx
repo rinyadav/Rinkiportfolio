@@ -25,7 +25,7 @@ export default function Hero() {
           </Badge>
 
           <h1 className="text-6xl xl:text-8xl font-bold mb-6 max-sm:text-4xl">
-            Hi, I'm <span className="text-primary animate-float inline-block">Rinki Yadav</span>
+            <span className="animate-float inline-block">Hi, I'm</span> <span className="text-primary animate-float inline-block">Rinki Yadav</span>
           </h1>
 
           <p className="text-2xl xl:text-3xl mb-6 text-muted-foreground max-sm:text-xl">
