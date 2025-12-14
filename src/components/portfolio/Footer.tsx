@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -91,12 +91,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t text-center text-muted-foreground">
-          <p className="flex items-center justify-center gap-1 flex-wrap">
-            2025 Rinki Yadav Portfolio
-            <span className="flex items-center gap-1">
-              • Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> using React & TypeScript
-            </span>
-          </p>
+          <p>2025 Rinki Yadav Portfolio</p>
         </div>
       </div>
     </footer>
