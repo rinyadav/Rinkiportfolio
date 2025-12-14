@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, Home, User, Code, Briefcase, FolderGit2, Award, GraduationCap, Mail, ChevronRight } from "lucide-react";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,14 +26,14 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { label: "Home", id: "home" },
-    { label: "About", id: "about" },
-    { label: "Skills", id: "skills" },
-    { label: "Services", id: "services" },
-    { label: "Projects", id: "projects" },
-    { label: "Experience", id: "experience" },
-    { label: "Education", id: "education" },
-    { label: "Contact", id: "contact" }
+    { label: "Home", id: "home", icon: Home },
+    { label: "About", id: "about", icon: User },
+    { label: "Skills", id: "skills", icon: Code },
+    { label: "Services", id: "services", icon: Briefcase },
+    { label: "Projects", id: "projects", icon: FolderGit2 },
+    { label: "Experience", id: "experience", icon: Award },
+    { label: "Education", id: "education", icon: GraduationCap },
+    { label: "Contact", id: "contact", icon: Mail }
   ];
 
   return (
@@ -71,21 +71,43 @@ export default function Navigation() {
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild className="xl:hidden">
-                <Button variant="ghost" size="icon" aria-label="Open menu">
-                  <Menu className="w-5 h-5" />
+                <Button variant="ghost" size="icon" aria-label="Open menu" className="hover:bg-primary/10">
+                  <Menu className="w-6 h-6 text-primary" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-64">
-                <div className="flex flex-col gap-4 mt-8">
-                  {navItems.map((item) => (
-                    <button
-                      key={item.id}
-                      onClick={() => scrollToSection(item.id)}
-                      className="text-left text-lg font-medium hover:text-primary transition-colors py-2"
+              <SheetContent side="right" className="w-80 bg-background/98 backdrop-blur-md border-l border-primary/20">
+                <div className="flex flex-col gap-2 mt-12">
+                  {navItems.map((item, index) => {
+                    const Icon = item.icon;
+                    return (
+                      <button
+                        key={item.id}
+                        onClick={() => scrollToSection(item.id)}
+                        className="group flex items-center justify-between text-left text-lg font-semibold hover:text-primary transition-all duration-300 py-4 px-4 rounded-lg hover:bg-primary/10 hover:translate-x-2 border border-transparent hover:border-primary/30"
+                        style={{ animationDelay: `${index * 50}ms` }}
+                      >
+                        <div className="flex items-center gap-4">
+                          <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                            <Icon className="w-5 h-5 text-primary" />
+                          </div>
+                          <span className="text-foreground group-hover:text-primary transition-colors">
+                            {item.label}
+                          </span>
+                        </div>
+                        <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-all duration-300 group-hover:translate-x-1" />
+                      </button>
+                    );
+                  })}
+                  
+                  <div className="mt-6 pt-6 border-t border-primary/20">
+                    <Button
+                      className="w-full btn-3d py-6 text-lg font-semibold"
+                      onClick={() => scrollToSection("contact")}
                     >
-                      {item.label}
-                    </button>
-                  ))}
+                      <Mail className="w-5 h-5 mr-2" />
+                      Let's Talk
+                    </Button>
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>
