@@ -76,8 +76,8 @@ export default function Navigation() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-80 bg-background/98 backdrop-blur-md border-l border-primary/20">
-                <div className="flex flex-col gap-2 mt-8">
-                  <div className="mb-6 pb-4 border-b border-primary/20">
+                <div className="flex flex-col gap-1 mt-6">
+                  <div className="mb-4 pb-3 border-b border-primary/20">
                     <h2 className="text-2xl font-bold text-primary">Rinki's Portfolio</h2>
                   </div>
                   {navItems.map((item, index) => {
@@ -86,28 +86,28 @@ export default function Navigation() {
                       <button
                         key={item.id}
                         onClick={() => scrollToSection(item.id)}
-                        className="group flex items-center justify-between text-left text-lg font-semibold hover:text-primary transition-all duration-300 py-4 px-4 rounded-lg hover:bg-primary/10 hover:translate-x-2 border border-transparent hover:border-primary/30"
+                        className="group flex items-center justify-between text-left text-base font-semibold hover:text-primary transition-all duration-300 py-3 px-3 rounded-lg hover:bg-primary/10 hover:translate-x-2 border border-transparent hover:border-primary/30"
                         style={{ animationDelay: `${index * 50}ms` }}
                       >
-                        <div className="flex items-center gap-4">
-                          <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                            <Icon className="w-5 h-5 text-primary" />
+                        <div className="flex items-center gap-3">
+                          <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                            <Icon className="w-4 h-4 text-primary" />
                           </div>
                           <span className="text-foreground group-hover:text-primary transition-colors">
                             {item.label}
                           </span>
                         </div>
-                        <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-all duration-300 group-hover:translate-x-1" />
+                        <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-all duration-300 group-hover:translate-x-1" />
                       </button>
                     );
                   })}
                   
-                  <div className="mt-6 pt-6 border-t border-primary/20">
+                  <div className="mt-4 pt-4 border-t border-primary/20">
                     <Button
-                      className="w-full btn-3d py-6 text-lg font-semibold"
+                      className="w-full btn-3d py-5 text-base font-semibold"
                       onClick={() => scrollToSection("contact")}
                     >
-                      <Mail className="w-5 h-5 mr-2" />
+                      <Mail className="w-4 h-4 mr-2" />
                       Let's Talk
                     </Button>
                   </div>
