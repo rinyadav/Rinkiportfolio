@@ -150,4 +150,17 @@ Accent: #14F1D9 (Bright Cyan/Turquoise)
     background: hsl(176 85% 51% / 0.1);
     box-shadow: 0 0 20px hsl(176 85% 51% / 0.4);
   }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
 }
