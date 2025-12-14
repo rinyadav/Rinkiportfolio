@@ -76,7 +76,10 @@ export default function Navigation() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-80 bg-background/98 backdrop-blur-md border-l border-primary/20">
-                <div className="flex flex-col gap-2 mt-12">
+                <div className="flex flex-col gap-2 mt-8">
+                  <div className="mb-6 pb-4 border-b border-primary/20">
+                    <h2 className="text-2xl font-bold text-primary">Rinki's Portfolio</h2>
+                  </div>
                   {navItems.map((item, index) => {
                     const Icon = item.icon;
                     return (
