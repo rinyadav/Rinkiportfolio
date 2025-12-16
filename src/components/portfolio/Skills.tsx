@@ -5,12 +5,36 @@ import { Code2, Palette, Users, Lightbulb, Wrench } from "lucide-react";
 
 export default function Skills() {
   const technicalSkills = [
-    { name: "HTML/CSS", level: 95 },
-    { name: "JavaScript", level: 90 },
-    { name: "React", level: 88 },
-    { name: "Node.js", level: 80 },
-    { name: "Python", level: 75 },
-    { name: "SQL", level: 70 }
+    { 
+      name: "HTML/CSS", 
+      level: 95,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    { 
+      name: "JavaScript", 
+      level: 90,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    { 
+      name: "React", 
+      level: 88,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    { 
+      name: "Node.js", 
+      level: 80,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    { 
+      name: "Python", 
+      level: 75,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    { 
+      name: "SQL", 
+      level: 70,
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    }
   ];
 
   const tools = [
@@ -58,10 +82,19 @@ export default function Skills() {
                     className="group/skill hover:translate-x-2 transition-transform duration-300"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
-                    <div className="flex justify-between mb-3">
-                      <span className="font-semibold text-foreground group-hover/skill:text-primary transition-colors">
-                        {skill.name}
-                      </span>
+                    <div className="flex justify-between items-center mb-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-background/50 p-1.5 group-hover/skill:scale-110 transition-transform">
+                          <img 
+                            src={skill.logo} 
+                            alt={`${skill.name} logo`}
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                        <span className="font-semibold text-foreground group-hover/skill:text-primary transition-colors">
+                          {skill.name}
+                        </span>
+                      </div>
                       <span className="text-primary font-bold">{skill.level}%</span>
                     </div>
                     <div className="relative">
