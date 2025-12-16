@@ -53,8 +53,12 @@ export default function About() {
               <img
                 src="https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20251216/file-89rxsofnsow0.png"
                 alt="Rinki Yadav - Professional Photo"
-                className="rounded-lg shadow-[var(--shadow-card)] w-full h-auto object-cover max-h-[500px]"
-                style={{ aspectRatio: '16/9' }}
+                className="rounded-lg shadow-[var(--shadow-card)] w-full h-auto object-cover max-h-[500px] hover:scale-105 transition-transform duration-500"
+                style={{ 
+                  aspectRatio: '16/9',
+                  filter: 'brightness(1.15) contrast(1.1) saturate(1.1)',
+                  imageRendering: 'crisp-edges'
+                }}
               />
             </div>
 
