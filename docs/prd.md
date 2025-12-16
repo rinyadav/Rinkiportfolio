@@ -9,7 +9,8 @@ Personal Portfolio Website
 A modern, interactive personal portfolio website showcasing professional skills, projects, experience, and achievements. The website serves as a comprehensive digital resume and professional presence for a frontend developer, inspired by contemporary portfolio design patterns.
 
 ### 1.3 Target Audience
-Recruiters, potential employers, clients, collaborators, and professional network contacts.\n
+Recruiters, potential employers, clients, collaborators, and professional network contacts.
+
 ## 2. Core Sections & Features
 
 ### 2.1 Hero / Introduction Section
@@ -18,7 +19,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Display user photo or avatar
 - Brief personal introduction tagline
 - Call-to-Action buttons: View Projects, Download CV, Contact Me
-- Reference design: Use Screenshot 2025-12-11 225606.png as visual inspiration for hero section layout and styling
+- Reference design: Use Screenshot2025-12-11 225606.png as visual inspiration for hero section layout and styling
 
 ### 2.2 About Me Section
 - Short personal description or background text
@@ -42,8 +43,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 \n**Project Display:**
 - Showcase4-6 best projects in card/grid layout
 - Each project card includes:
-  - Project title
-  - Category tag
+  - Project title\n  - Category tag
   - Screenshot or thumbnail image
   - Brief description
   - Technologies used\n  - Live demo link
@@ -56,14 +56,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Gracious Garments (Category: E-Commerce)
 - Additional projects with appropriate category tags
 
-### 2.5 Services / What I Do Section
-- Web Development\n- UI/UX Design\n- SEO Optimization
-- API Integration
-- Portfolio/Website creation
-- Software development
-- Each service displayed with icon and brief description
-
-### 2.6 Experience & Timeline Section
+### 2.5 Experience & Timeline Section
 **Display Format:**
 - Interactive timeline visualization with vertical line connecting experience entries
 - Alternating left-right card layout for visual interest
@@ -88,7 +81,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Most recent position displayed first (reverse chronological order)
 - Clear visual distinction between current and past roles
 - Expandable cards for detailed responsibility descriptions
-\n### 2.7 Education Section
+\n### 2.6 Education Section
 **Display Format:**\n- Card-based layout with academic institution branding
 - Each education card includes:
   - Institution logo or icon
@@ -110,11 +103,11 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 - Clear hierarchy: Degree → Institution → Details
 - Optional: Include certifications from educational platforms (Coursera, edX, etc.)
 
-### 2.8 Resume Section
+### 2.7 Resume Section
 - Resume preview display
 - Download CV button prominently placed
 - One-click download functionality
-\n### 2.9 Contact Section
+\n### 2.8 Contact Section
 - Contact form with fields: Name, Email, Message
 - Gmail address\n- LinkedIn profile link
 - GitHub profile link
@@ -127,10 +120,10 @@ Recruiters, potential employers, clients, collaborators, and professional networ
   - About
   - Skills
   - Projects
-  - Services
   - Experience
   - Education
-  - Contact\n- Smooth scroll behavior when clicking nav links
+  - Contact
+- Smooth scroll behavior when clicking nav links
 - Mobile-responsive hamburger menu
 
 ### 3.2 Interactive Features
@@ -163,7 +156,7 @@ Recruiters, potential employers, clients, collaborators, and professional networ
 \n## 5. Design Style\n
 ### 5.1 Visual Approach
 - Modern and professional aesthetic with clean layouts
-- Card-based design for projects, services, and content sections
+- Card-based design for projects and content sections
 - Grid layout for project gallery with filtering capability
 - Timeline visualization for experience section with interactive elements
 - Card-based layout for education with institution branding

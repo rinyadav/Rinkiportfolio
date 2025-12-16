@@ -3,7 +3,6 @@ import Hero from "@/components/portfolio/Hero";
 import About from "@/components/portfolio/About";
 import Skills from "@/components/portfolio/Skills";
 import Projects from "@/components/portfolio/Projects";
-import Services from "@/components/portfolio/Services";
 import Experience from "@/components/portfolio/Experience";
 import Education from "@/components/portfolio/Education";
 import Resume from "@/components/portfolio/Resume";
@@ -19,7 +18,6 @@ export default function Index() {
         <About />
         <Skills />
         <Projects />
-        <Services />
         <Experience />
         <Education />
         <Resume />
