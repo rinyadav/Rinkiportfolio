@@ -57,13 +57,16 @@ export default function Resume() {
               </div>
             </div>
 
-            <CardContent id="resume-preview" className="p-8 bg-muted/30">
-              <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+            <CardContent id="resume-preview" className="p-8">
+              <div className="bg-background/95 backdrop-blur-sm rounded-lg shadow-xl overflow-hidden border-2 border-primary/20 hover:border-primary/40 transition-all duration-300">
                 <img 
                   src="/Rinki_Yadav_Resume.png" 
                   alt="Rinki Yadav Resume"
-                  className="w-full h-auto"
+                  className="w-full h-auto mix-blend-lighten opacity-90 hover:opacity-100 transition-opacity duration-300"
                   loading="lazy"
+                  style={{
+                    filter: 'brightness(0.95) contrast(1.1)'
+                  }}
                 />
               </div>
               
