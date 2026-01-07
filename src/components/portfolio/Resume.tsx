@@ -131,44 +131,44 @@ export default function Resume() {
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center backdrop-blur-sm border-2 border-primary/30">
                 <FileText className="w-10 h-10 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-2">Rinki Rajbahadur Yadav</h3>
-              <p className="text-muted-foreground mb-2">Fullstack Developer</p>
-              <p className="text-sm text-muted-foreground mb-6">
+              <h3 className="text-xl xl:text-2xl font-bold mb-2">Rinki Rajbahadur Yadav</h3>
+              <p className="text-muted-foreground mb-2 text-sm xl:text-base">Fullstack Developer</p>
+              <p className="text-xs xl:text-sm text-muted-foreground mb-6">
                 Bachelor of Computer Science | Currently Pursuing
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Button size="lg" className="gap-2 btn-3d" onClick={handleDownload}>
-                  <Download className="w-5 h-5" />
+              <div className="flex flex-wrap gap-3 xl:gap-4 justify-center">
+                <Button size="lg" className="gap-2 btn-3d text-sm xl:text-base px-4 xl:px-6" onClick={handleDownload}>
+                  <Download className="w-4 h-4 xl:w-5 xl:h-5" />
                   Download PDF
                 </Button>
-                <Button size="lg" variant="outline" className="gap-2 border-primary/30 hover:border-primary hover:bg-primary/10" asChild>
+                <Button size="lg" variant="outline" className="gap-2 border-primary/30 hover:border-primary hover:bg-primary/10 text-sm xl:text-base px-4 xl:px-6" asChild>
                   <a href="#resume-preview">
-                    <Eye className="w-5 h-5" />
+                    <Eye className="w-4 h-4 xl:w-5 xl:h-5" />
                     View Below
                   </a>
                 </Button>
               </div>
             </div>
 
-            <CardContent id="resume-preview" className="p-8">
+            <CardContent id="resume-preview" className="p-4 xl:p-8">
               {/* Resume Content */}
-              <div className="space-y-8 max-w-4xl mx-auto">
+              <div className="space-y-6 xl:space-y-8 max-w-4xl mx-auto">
                 {/* Header */}
-                <div className="text-center pb-6 border-b-2 border-primary/20">
-                  <h1 className="text-3xl font-bold mb-4">Rinki Rajbahadur Yadav</h1>
-                  <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
+                <div className="text-center pb-4 xl:pb-6 border-b-2 border-primary/20">
+                  <h1 className="text-2xl xl:text-3xl font-bold mb-3 xl:mb-4">Rinki Rajbahadur Yadav</h1>
+                  <div className="flex flex-wrap justify-center gap-3 xl:gap-4 text-xs xl:text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
-                      <Mail className="w-4 h-4 text-primary" />
-                      <a href="mailto:rv192006@gmail.com" className="hover:text-primary transition-colors">
+                      <Mail className="w-3 h-3 xl:w-4 xl:h-4 text-primary flex-shrink-0" />
+                      <a href="mailto:rv192006@gmail.com" className="hover:text-primary transition-colors break-all">
                         rv192006@gmail.com
                       </a>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-primary" />
+                      <Phone className="w-3 h-3 xl:w-4 xl:h-4 text-primary flex-shrink-0" />
                       <span>9172630524</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Linkedin className="w-4 h-4 text-primary" />
+                      <Linkedin className="w-3 h-3 xl:w-4 xl:h-4 text-primary flex-shrink-0" />
                       <a 
                         href="https://www.linkedin.com/in/rinki-yadav-b52300288" 
                         target="_blank" 
@@ -183,37 +183,38 @@ export default function Resume() {
 
                 {/* Education Qualifications */}
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
-                    <span className="text-primary">📚</span> Education Qualifications
+                  <h2 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
+                    <span className="text-primary text-xl xl:text-2xl">📚</span> 
+                    <span className="break-words">Education Qualifications</span>
                   </h2>
-                  <div className="overflow-x-auto">
-                    <table className="w-full border-collapse">
+                  <div className="overflow-x-auto -mx-4 xl:mx-0 px-4 xl:px-0">
+                    <table className="w-full border-collapse min-w-[600px]">
                       <thead>
                         <tr className="bg-primary/10">
-                          <th className="border border-primary/20 p-3 text-left">College Name</th>
-                          <th className="border border-primary/20 p-3 text-left">Course</th>
-                          <th className="border border-primary/20 p-3 text-left">Year of Passing</th>
-                          <th className="border border-primary/20 p-3 text-left">Percentage</th>
+                          <th className="border border-primary/20 p-2 xl:p-3 text-left text-xs xl:text-sm">College Name</th>
+                          <th className="border border-primary/20 p-2 xl:p-3 text-left text-xs xl:text-sm">Course</th>
+                          <th className="border border-primary/20 p-2 xl:p-3 text-left text-xs xl:text-sm">Year of Passing</th>
+                          <th className="border border-primary/20 p-2 xl:p-3 text-left text-xs xl:text-sm">Percentage</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="hover:bg-primary/5 transition-colors">
-                          <td className="border border-primary/20 p-3">Shri Shankar Narayan College Of Arts & Commerce</td>
-                          <td className="border border-primary/20 p-3">Bachelor of Computer Science</td>
-                          <td className="border border-primary/20 p-3">Currently Pursuing</td>
-                          <td className="border border-primary/20 p-3">82% (Average of Sem 1 to Sem 4)</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Shri Shankar Narayan College Of Arts & Commerce</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Bachelor of Computer Science</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Currently Pursuing</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">82% (Average of Sem 1 to Sem 4)</td>
                         </tr>
                         <tr className="hover:bg-primary/5 transition-colors">
-                          <td className="border border-primary/20 p-3">Thakur Vidya Mandir High School & Jr. College</td>
-                          <td className="border border-primary/20 p-3">Higher Secondary School Certificate</td>
-                          <td className="border border-primary/20 p-3">2023</td>
-                          <td className="border border-primary/20 p-3">58.33%</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Thakur Vidya Mandir High School & Jr. College</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Higher Secondary School Certificate</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">2023</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">58.33%</td>
                         </tr>
                         <tr className="hover:bg-primary/5 transition-colors">
-                          <td className="border border-primary/20 p-3">JijaMata Vidya Mandir High School</td>
-                          <td className="border border-primary/20 p-3">Secondary School Certificate</td>
-                          <td className="border border-primary/20 p-3">2021</td>
-                          <td className="border border-primary/20 p-3">69.40%</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">JijaMata Vidya Mandir High School</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">Secondary School Certificate</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">2021</td>
+                          <td className="border border-primary/20 p-2 xl:p-3 text-xs xl:text-sm">69.40%</td>
                         </tr>
                       </tbody>
                     </table>
@@ -222,10 +223,11 @@ export default function Resume() {
 
                 {/* Additional Certifications */}
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
-                    <span className="text-primary">🎓</span> Additional Certifications
+                  <h2 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
+                    <span className="text-primary text-xl xl:text-2xl">🎓</span> 
+                    <span className="break-words">Additional Certifications</span>
                   </h2>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-2 xl:space-y-3 text-muted-foreground text-sm xl:text-base">
                     <li className="flex gap-2">
                       <span className="text-primary">•</span>
                       <span>Currently pursuing Employability Skills and Placements Training offered by TNS India Foundation.</span>
@@ -243,10 +245,11 @@ export default function Resume() {
 
                 {/* Academic and Extracurricular Achievements */}
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
-                    <span className="text-primary">🏆</span> Academic and Extracurricular Achievements
+                  <h2 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
+                    <span className="text-primary text-xl xl:text-2xl">🏆</span> 
+                    <span className="break-words">Academic and Extracurricular Achievements</span>
                   </h2>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-2 xl:space-y-3 text-muted-foreground text-sm xl:text-base">
                     <li className="flex gap-2">
                       <span className="text-primary">•</span>
                       <span>Volunteer at Udaan Event.</span>
@@ -256,10 +259,11 @@ export default function Resume() {
 
                 {/* Research Project */}
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
-                    <span className="text-primary">🔬</span> Research Project
+                  <h2 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
+                    <span className="text-primary text-xl xl:text-2xl">🔬</span> 
+                    <span className="break-words">Research Project</span>
                   </h2>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-2 xl:space-y-3 text-muted-foreground text-sm xl:text-base">
                     <li className="flex gap-2">
                       <span className="text-primary">•</span>
                       <span>Created a website on Smart Career Guidance Platform.</span>
@@ -269,10 +273,11 @@ export default function Resume() {
 
                 {/* Personal Details */}
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
-                    <span className="text-primary">👤</span> Personal Details
+                  <h2 className="text-lg xl:text-2xl font-bold mb-3 xl:mb-4 pb-2 border-b-2 border-primary flex items-center gap-2">
+                    <span className="text-primary text-xl xl:text-2xl">👤</span> 
+                    <span className="break-words">Personal Details</span>
                   </h2>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-2 xl:space-y-3 text-muted-foreground text-sm xl:text-base">
                     <li className="flex gap-2">
                       <span className="text-primary">•</span>
                       <span><strong>Address:</strong> Nallasopara East, Palghar-401209</span>
@@ -293,13 +298,13 @@ export default function Resume() {
                 </div>
               </div>
               
-              <div className="mt-12 text-center">
+              <div className="mt-8 xl:mt-12 text-center">
                 <Button 
                   size="lg" 
-                  className="gap-2 btn-3d" 
+                  className="gap-2 btn-3d text-sm xl:text-base px-4 xl:px-6 w-full xl:w-auto" 
                   onClick={handleDownload}
                 >
-                  <Download className="w-5 h-5" />
+                  <Download className="w-4 h-4 xl:w-5 xl:h-5" />
                   Download as PDF
                 </Button>
               </div>

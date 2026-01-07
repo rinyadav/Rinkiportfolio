@@ -45,7 +45,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("home")}
-            className="font-bold text-primary text-[36px] animate-float"
+            className="font-bold text-primary text-2xl xl:text-[36px] animate-float"
           >RY</button>
 
           <div className="hidden xl:flex items-center gap-8">
