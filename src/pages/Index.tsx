@@ -9,10 +9,12 @@ import Resume from "@/components/portfolio/Resume";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
 import ParticleBackground from "@/components/effects/ParticleBackground";
+import SmoothScroll from "@/components/effects/SmoothScroll";
 
 export default function Index() {
   return (
-    <div className="scroll-smooth relative">
+    <div className="relative">
+      <SmoothScroll />
       <ParticleBackground />
       <Navigation />
       <main className="relative z-10">
