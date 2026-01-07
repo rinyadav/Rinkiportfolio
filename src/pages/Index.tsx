@@ -8,12 +8,14 @@ import Education from "@/components/portfolio/Education";
 import Resume from "@/components/portfolio/Resume";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
+import ParticleBackground from "@/components/effects/ParticleBackground";
 
 export default function Index() {
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth relative">
+      <ParticleBackground />
       <Navigation />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <About />
         <Skills />
