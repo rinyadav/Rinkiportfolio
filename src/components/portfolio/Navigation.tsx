@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Home, User, Code, FolderGit2, Award, Mail, ChevronRight } from "lucide-react";
+import { Menu, Home, User, Code, FolderGit2, Award, FileText, Mail, ChevronRight } from "lucide-react";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,6 +31,7 @@ export default function Navigation() {
     { label: "Skills", id: "skills", icon: Code },
     { label: "Projects", id: "projects", icon: FolderGit2 },
     { label: "Experience", id: "experience", icon: Award },
+    { label: "Resume", id: "resume", icon: FileText },
     { label: "Contact", id: "contact", icon: Mail }
   ];
 
