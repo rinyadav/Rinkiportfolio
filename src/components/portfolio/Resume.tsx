@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Download, FileText, Eye, Mail, Phone, Linkedin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import jsPDF from 'jspdf';
-import 'jspdf-autotable';
+import autoTable from 'jspdf-autotable';
 
 export default function Resume() {
   const { toast } = useToast();
@@ -34,7 +34,7 @@ export default function Resume() {
     doc.text('Education Qualifications:', 20, 52);
     
     // Education Table
-    (doc as any).autoTable({
+    autoTable(doc, {
       startY: 56,
       head: [['College Name', 'Course', 'Year of Passing', 'Percentage']],
       body: [
@@ -48,7 +48,8 @@ export default function Resume() {
     });
     
     // Additional Certifications
-    let yPos = (doc as any).lastAutoTable.finalY + 10;
+    let yPos = (doc as any).lastAutoTable?.finalY || 100;
+    if (yPos) yPos += 10;
     doc.setFontSize(12);
     doc.setFont('helvetica', 'bold');
     doc.text('Additional Certifications:', 20, yPos);
