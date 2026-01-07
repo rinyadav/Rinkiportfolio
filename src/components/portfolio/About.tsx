@@ -43,13 +43,14 @@ export default function About() {
               <div className="relative w-full max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl blur-2xl"></div>
                 <img
-                  src="https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20260107/file-8rq45f58696o.png"
+                  src="https://miaoda-conversation-file.s3cdn.medo.dev/user-85y5vg5s68e8/conv-85y647usmsxt/20260107/file-8rq6y9m3fke8.png"
                   alt="Rinki Yadav - Professional Photo"
                   className="relative rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] w-full h-auto object-cover border-2 border-primary/10 hover:border-primary/30 hover:scale-[1.02] transition-all duration-500"
                   style={{ 
-                    aspectRatio: '3/4',
-                    maxHeight: '450px',
-                    objectPosition: 'center top'
+                    aspectRatio: '4/5',
+                    maxHeight: '500px',
+                    objectPosition: 'center 20%',
+                    objectFit: 'cover'
                   }}
                 />
               </div>
