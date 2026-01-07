@@ -5,8 +5,8 @@ import { Download, Award, Users, Lightbulb, Target } from "lucide-react";
 export default function About() {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Rinki_Yadav_Resume.pdf';
+    link.href = '/Rinki_Yadav_Resume.png';
+    link.download = 'Rinki_Yadav_Resume.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
