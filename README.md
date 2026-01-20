@@ -86,14 +86,26 @@ portfolio/
 ```bash
 # Step 1: Install dependencies
 npm install
-
-# Step 2: Run lint check
-npm run lint
-
-# Step 3: Start development (if needed)
-npm run dev -- --host 127.0.0.1
 # or
-npx vite --host 127.0.0.1
+pnpm install
+
+# Step 2: Run development server
+npm run dev
+# or
+pnpm run dev
+
+# Step 3: Build for production
+npm run build
+# or
+pnpm run build
+
+# Step 4: Preview production build
+npm run preview
+# or
+pnpm run preview
+
+# Step 5: Run lint check
+npm run lint
 ```
 
 ## 🎨 Customization Guide
@@ -191,14 +203,23 @@ npm run deploy
 ## 📝 Available Scripts
 
 ```bash
+# Development server
+npm run dev
+# or
+pnpm run dev
+
+# Build for production
+npm run build
+# or
+pnpm run build
+
+# Preview production build locally
+npm run preview
+# or
+pnpm run preview
+
 # Lint check (TypeScript, Biome, Tailwind)
 npm run lint
-
-# Development server (if needed)
-npm run dev
-
-# Build for production (handled by platform)
-npm run build
 ```
 
 ## 🔧 Code Quality

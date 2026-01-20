@@ -45,7 +45,9 @@ VITE_APP_ID=app-85y647usmsxu
 
 ### Build Command
 ```bash
-npm run lint  # Validates code quality
+pnpm run build  # Runs TypeScript compilation and Vite build
+# or
+npm run build   # If using npm
 ```
 
 ### Production Build Features
@@ -81,11 +83,19 @@ npm run lint  # Validates code quality
 #### 2. Netlify
 **Steps:**
 1. Connect GitHub repository
-2. Build settings:
-   - Build command: `npm run build`
+2. Build settings (auto-detected from netlify.toml):
+   - Build command: `pnpm run build`
    - Publish directory: `dist`
-3. Add environment variables
+   - Node version: 20
+3. Add environment variables (if any)
 4. Deploy
+
+**Configuration File:**
+The project includes `netlify.toml` with:
+- Automatic SPA routing (redirects to index.html)
+- Security headers
+- Cache optimization for assets
+- Node 20 environment
 
 #### 3. GitHub Pages
 **Steps:**
